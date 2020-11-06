@@ -1,5 +1,10 @@
 # Hanami
 
+`NOTE`
+So, this gem is a bit stale and is difficult to install due to a naming conflict with a popular ruby framework, BUT! It is the *only* gem I could find that can accurately transliterate any Japanese text into romaji. To make installing this gem and its dependencies easier, I added a `install-hanami-gem.sh` bash. Just run it and it should take care of everything. Works within dockers too, of course.
+
+Why fork it? Because there was a BUG introduced in one of the dependencies [Issue #5](https://github.com/blutorange/hanami/issues/5); now resolved.
+
 Overview
 ---------
 
